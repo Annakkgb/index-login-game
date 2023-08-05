@@ -9,10 +9,10 @@ function topo() {
 //Validação de Login
 function login() {
     var logado = 0;
-    var usuario = document.getElementById("usuario").value;
-    var senha = document.getElementById("senha").value;
+    var user = document.getElementById("user").value;
+    var senha1 = document.getElementById("senha1").value;
 
-    if(usuario == "admin" && senha == "123456"){
+    if(user == "admin" && senha1 == "123456"){
         window.location.href = "index.html";
         logado = 1;
     }
